@@ -1,0 +1,169 @@
+@import "~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss";
+
+.container {
+  margin: 0px auto;
+  margin-left: 0px;
+}
+
+.row {
+  @include ms-Grid-row;
+  @include ms-fontColor-white;
+  background-color: $ms-color-themeDark;
+  padding: 20px;
+}
+
+.column {
+  @include ms-Grid-col;
+  @include ms-lg10;
+  @include ms-xl8;
+  @include ms-xlPush2;
+  @include ms-lgPush1;
+}
+
+.title {
+  @include ms-font-xl;
+  @include ms-fontColor-white;
+}
+
+.subTitle {
+  @include ms-font-l;
+  @include ms-fontColor-white;
+}
+
+.description {
+  @include ms-font-l;
+  @include ms-fontColor-white;
+}
+
+.button {
+  // Our button
+  text-decoration: none;
+  height: 32px;
+
+  // Primary Button
+  min-width: 80px;
+  background-color: $ms-color-themePrimary;
+  border-color: $ms-color-themePrimary;
+  color: $ms-color-white;
+
+  // Basic Button
+  outline: transparent;
+  position: relative;
+  font-family: "Segoe UI WestEuropean", "Segoe UI", -apple-system,
+    BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-size: $ms-font-size-m;
+  font-weight: $ms-font-weight-regular;
+  border-width: 0;
+  text-align: center;
+  cursor: pointer;
+  display: inline-block;
+  padding: 0 16px;
+
+  .label {
+    font-weight: $ms-font-weight-semibold;
+    font-size: $ms-font-size-m;
+    height: 32px;
+    line-height: 32px;
+    margin: 0 4px;
+    vertical-align: top;
+    display: inline-block;
+  }
+}
+
+.accordion {
+  background-color: #0586ce;
+  color: white;
+  cursor: pointer;
+  width: 100%;
+  height: 40px;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 18px;
+  font-weight: bold;
+  transition: 2s;
+  transition-timing-function: ease-in-out;
+  font-family: "Segoe UI WestEuropean", "Segoe UI", -apple-system,
+    BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+}
+
+.active,
+.accordion:hover {
+  background-color: #004a7c;
+}
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  font-family: "Segoe UI WestEuropean", "Segoe UI", -apple-system,
+    BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+  font-size: 16px;
+}
+
+.plus {
+  font-size: 24px;
+  float: right;
+  font-weight: bolder;
+  transition: width 0.5s, transform 0.5s;
+}
+
+#icon {
+  transition: width 0.5s, transform 0.5s;
+}
+
+.openAll {
+  // Our button
+  text-decoration: none;
+  height: 32px;
+  // Primary Button
+  min-width: 80px;
+  background-color: #0586ce;
+  border-color: #0586ce;
+  color: $ms-color-white;
+  transition: 0.4s;
+  margin-bottom: 5px;
+  float: right;
+  outline: transparent;
+  font-family: "Segoe UI WestEuropean", "Segoe UI", -apple-system,
+    BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-size: $ms-font-size-m;
+  font-weight: $ms-font-weight-regular;
+  border-width: 0;
+  text-align: center;
+  cursor: pointer;
+  display: inline-block;
+  padding: 0 16px;
+
+  .label {
+    font-weight: $ms-font-weight-semibold;
+    font-size: $ms-font-size-m;
+    height: 32px;
+    line-height: 32px;
+    margin: 0 4px;
+    vertical-align: top;
+    display: inline-block;
+  }
+}
+
+.openAll:hover {
+  background-color: $ms-color-white;
+  border-color: $ms-color-white;
+  color: $ms-color-themePrimary;
+}
+h1 {
+  width: 50%;
+  font-size: 20px;
+  font-family: "Segoe UI WestEuropean", "Segoe UI", -apple-system,
+    BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+
+}
+
+.linebreak {
+  margin: 2px;
+  border: white;
+}

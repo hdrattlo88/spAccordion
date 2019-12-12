@@ -1,0 +1,38 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "1f403763-96aa-4b23-937f-d384420dcb08",
+  "alias": "accordionWebPartWebPart",
+  "componentType": "WebPart",
+
+  // The "*" signifies that the version should be taken from the package.json
+  "version": "*",
+  "manifestVersion": 2,
+
+  // If true, the component can only be installed on sites where Custom Script is allowed.
+  // Components that allow authors to embed arbitrary script code should set this to true.
+  // https://support.office.com/en-us/article/Turn-scripting-capabilities-on-or-off-1f2c515f-5d7e-448a-9fd7-835da935584f
+  "requiresCustomScript": false,
+  "supportedHosts": ["SharePointWebPart"],
+
+  "preconfiguredEntries": [{
+    "groupId": "5c03119e-3074-46fd-976b-c60198311f70", // Other
+    "group": { "default": "Other" },
+    "title": { "default": "Accordion" },
+    "description": { "default": "accordionWebPart description" },
+    "officeFabricIconFontName": "PageListMirroredSolid",
+    "properties": {
+      "description": "accordionWebPart",
+      "heading1": "Accordion Web Part",
+      "section1": "Section 1",
+      "body1": "Body for section 1",
+      "section2": "Section 2",
+      "body2": "Body for section 2",
+      "section3": "Section 3",
+      "body3": "Body for section 3",
+      "section4":"Section 4",
+      "body4":"Body for section 4",
+      "section5": "Section 5",
+      "body5":"Body for section 5"
+    }
+  }]
+}
