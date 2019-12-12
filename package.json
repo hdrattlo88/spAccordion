@@ -18,24 +18,28 @@
     "@microsoft/sp-webpart-base": "1.9.1",
     "@pnp/spfx-controls-react": "1.15.0",
     "@pnp/spfx-property-controls": "^1.16.0",
-    "@types/es6-promise": "0.0.33",
-    "@types/jquery": "^2.0.54",
+    "@types/es6-promise": "^3.3.0",
+    "@types/jquery": "^3.3.31",
     "@types/jqueryui": "^1.12.9",
-    "@types/webpack-env": "1.13.1",
+    "@types/webpack-env": "^1.14.1",
     "bootstrap-sass": "^3.4.1",
-    "jquery": "^2.2.4",
-    "jqueryui": "^1.11.1"
+    "jquery": "^3.4.1",
+    "jqueryui": "^1.11.1",
+    "lodash": "^4.17.15",
+    "lodash.merge": "^4.6.2",
+    "lodash.template": "^4.5.0",
+    "serialize-javascript": "^2.1.2"
   },
   "devDependencies": {
     "@fortawesome/fontawesome-free": "^5.11.2",
-    "@microsoft/rush-stack-compiler-2.9": "0.7.16",
+    "@microsoft/rush-stack-compiler-2.9": "^0.9.10",
     "@microsoft/sp-build-web": "1.9.1",
     "@microsoft/sp-module-interfaces": "1.9.1",
     "@microsoft/sp-tslint-rules": "1.9.1",
     "@microsoft/sp-webpart-workbench": "1.9.1",
-    "@types/chai": "3.4.34",
-    "@types/mocha": "2.2.38",
-    "ajv": "~5.2.2",
-    "gulp": "~3.9.1"
+    "@types/chai": "^4.2.7",
+    "@types/mocha": "^5.2.7",
+    "ajv": "^6.10.2",
+    "gulp": "^4.0.2"
   }
 }
