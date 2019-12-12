@@ -23,7 +23,7 @@
     "@types/jqueryui": "^1.12.9",
     "@types/webpack-env": "1.13.1",
     "bootstrap-sass": "^3.4.1",
-    "jquery": "^2.2.4",
+    "jquery": "^3.4.0",
     "jqueryui": "^1.11.1"
   },
   "devDependencies": {
